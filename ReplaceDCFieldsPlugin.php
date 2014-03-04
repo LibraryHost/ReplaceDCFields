@@ -1,6 +1,6 @@
 <?php
 
-    class ReplaceDcTitlePlugin	 extends Omeka_Plugin_AbstractPlugin
+    class ReplaceDCFieldsPlugin	 extends Omeka_Plugin_AbstractPlugin
     {
         protected $_filters = array(
                'itemTitleSwitch' => array('Display', 'Item', 'Dublin Core', 'Title'),
